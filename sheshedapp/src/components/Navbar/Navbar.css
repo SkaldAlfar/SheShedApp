@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+.nav-wrapper {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    backdrop-filter: blur(50px);
+}
+
+.nav-content {
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 5rem;
+    height: auto;
+    padding-left: 2rem;
+    filter: drop-shadow(0 0 0.75rem white);
+}
+
+.ivy1 {
+    width: 20rem;
+    height: auto;
+    position: absolute;
+    right: -10rem;
+    top: 5rem;
+}
+
+.ivy2 {
+    width: 20rem;
+    height: auto;
+    position: absolute;
+    left: -10rem;
+    top: 5rem;
+}
+
+.nav-content ul {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.nav-content li {
+    margin: 0 1.5rem;
+}
+
+.menu-item {
+    font-family: "UnifrakturCook", cursive;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 2.5rem;
+    font-weight: 500;
+    filter: drop-shadow(0 0 0.75rem black);
+    color: #ffffff;
+    position: relative;
+    cursor: pointer;
+}
